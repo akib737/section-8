@@ -1,0 +1,61 @@
+/* .service-btn::before {
+  font-family: fontAwesome;
+  content: "\f061";
+} */
+.content-heading {
+  padding: 50px 0;
+  text-align: center;
+}
+.content-heading h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 30px;
+  color: #333;
+}
+.service-item {
+  margin: 0 7px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 10px #e6e2e2;
+  background: #fff;
+}
+.service-content {
+  padding: 0 0 10px 10px;
+}
+.bg-1 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 180px;
+  background-image: url(../img/popup-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+h4 {
+  padding: 11px 0 0;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 21px;
+  color: #333;
+}
+.service-item p {
+  padding-bottom: 22px;
+}
+.service-btn {
+  position: relative;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid #0d6efd;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  transition: ease-in-out 0.2s;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+  background: #fff;
+  color: #0d6efd;
+}
+.service-btn:hover {
+  background: #0d6efd;
+  color: #fff;
+}
